@@ -45,7 +45,7 @@ body {
   background-image: 
   linear-gradient(to bottom, rgba(0,0,0,.9), rgba(0,0,0, .5)),
   /* Image coutesy of Alex Brisbey  */
-  url("./images/detroitskyline.jpg");
+  url("/images/detroitskyline.jpg");
   width: 100%;
   height: 100vh;
   display:flex;
