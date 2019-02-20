@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="images/smiley.png">
+  <title>Antheny Wells</title>
+  <!-- style -->
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header id="header">
+    <div id="logo">
+      <a href="">anthenywells.com</a>
+    </div>
+    <div class="navbar">
+      <a href="#about">ABOUT</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+      <a class="resume" href="assets/Antheny_Wells_Resume.pdf" download>RESUME</a>
+    </div>
+  </header>
+
+  <div class="parallax">
+    <div class="title" data-aos="slide-right">
+      <p>Hi, I'm Antheny Wells,</p>
+      <p>A WEB DEVELOPER</p>
+    </div>
+  </div>
+
+  <section class="white" data-aos="fade-in">
+    <p id="about">ABOUT</p>
+    <div class="info">
+      <div class="blurb">
+        <p>Experienced Graphic Designer turned Web Developer looking to turn my passion into a full-time role. Skilled
+          in HTML, CSS, Javascript, jQuery, AngularJS, NodeJS and Responsive Web Design. Strong arts and design
+          professional with a obsession for technology and an eagerness to learn.</p>
+      </div>
+      <div class="portrait">
+        <img src="images/awportrait.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="white">
+    <p id="skills">SKILLS</p>
+    <div class="logos">
+      <img src="images/html.svg" alt="">
+      <img src="images/css.svg" alt="">
+      <img src="images/bootstrap.svg" alt="">
+      <img src="images/javascript.svg" alt="">
+      <img src="images/angular.svg" alt="">
+      <img src="images/nodejs.svg" alt="">
+      <img src="images/sass.svg" alt="">
+      <img src="images/postgresql.svg" alt="">
+    </div>
+  </section>
+
+  <section class="white">
+    <p id="projects">PROJECTS</p>
+    <div class="cards">
+      <div class="card">
+        <a href="https://anthenywells.github.io/musuem-of-candy/">
+          <img src="images/musuemofcandy.jpg" alt="">
+        </a>
+        <div class="projecttitle">
+          <p>Musuem of Candy</p>
+          <a href="https://github.com/anthenywells/musuem-of-candy">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p>HTML, CSS, Bootstrap 4</p>
+        <p>A concept landing page for the Musuem of Candy. Completely responsive. Click the image and check it out. </p>
+      </div>
+      <div class="card">
+        <a href="https://anthenywells.github.io/todo-list/">
+          <img src="images/todo.jpg" alt="">
+        </a>
+        <div class="projecttitle">
+          <p>TODO List</p>
+          <a href="https://github.com/anthenywells/todo-list">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <p>HTML, CSS, AngularJS</p>
+        <p>A functional todo list. Go ahead and add a todo, delete a todo or mark it complete. Click the image and check it out.</p>
+      </div>
+      <div class="card">
+        <a href="https://anthenywells.github.io/table-finder/">
+          <img src="images/tablefinder.jpg" alt="">
+        </a>
+        <div class="projecttitle">
+          <p>Table Finder</p>
+          <a href="https://github.com/anthenywells/table-finder">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p>HTML, CSS, jQuery</p>
+        <p>Built to reserve a table. Go ahead and pick a table, fill out the form and click reserve. Click the image and check it out.</p>
+      </div>
+      <div class="card">
+        <a href="https://anthenywells.github.io/profile-card/">
+          <img src="images/profilecard.jpg" alt="">        
+        </a>
+        <div class="projecttitle">
+          <p>Profile Card</p>
+          <a href="https://github.com/anthenywells/profile-card">
+            <i class="fab fa-github"></i>
+          </a>
+        
+        </div>
+        <p>HTML, CSS, AngularJS</p>
+        <p>A functional, editable profile card. Click edit and change up some details. Click update and watch it work. Click the image and check it out.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="contactme" id="contact">CONTACT ME</p>
+    <a class="email" href="mailto:anthenywells@gmail.com">EMAIL</a>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/antheny/" target="_blank">LINKEDIN</a>
+      <a href="https://github.com/anthenywells" target="_blank">GITHUB</a>
+    </div>
+  </footer>
+
+  <!-- animations -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      startEvent: 'DOMContentLoaded',
+      once: true,
+    });
+  </script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- script -->
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
