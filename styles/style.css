@@ -199,7 +199,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .parallax {
-  background-size: auto;    
+  background-size:auto 100vh;    
   }
   .title p:nth-of-type(1) {
     font-size: 1em;
