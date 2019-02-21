@@ -197,6 +197,12 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
+  .parallax {
+    background-image: 
+  linear-gradient(to bottom, rgba(0,0,0,.9), rgba(0,0,0, .5)),
+  /* Image coutesy of Alex Brisbey  */
+  url("/images/alex-brisbey-582212-unsplash-min-mobile.jpg");
+  }
   #logo {
     display:none;
   }
