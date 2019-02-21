@@ -1,3 +1,4 @@
+
 $(window).scroll(function () {
   if ($(window).scrollTop() >= $(window).height()) {
   $('#header')
@@ -11,6 +12,7 @@ $(window).scroll(function () {
     .css('background','#2948ff');
   }
 });
+
 
 
 // $("a[href^='#']").click(function(e) {
