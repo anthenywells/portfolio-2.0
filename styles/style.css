@@ -208,6 +208,7 @@ footer {
   .navbar {
     font-size: .8em;
     align-self: center;
+    margin-left:10px;
   }
   .parallax {
     background-image: 
