@@ -7,7 +7,7 @@ $(window).scroll(function () {
     .css('background','#262626');
   } else {
   $('#header')
-    .css('background','transparent');
+    .css('background','#262626');
   $('.resume')
     .css('background','#2948ff');
   }
